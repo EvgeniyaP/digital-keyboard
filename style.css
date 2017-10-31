@@ -1,0 +1,84 @@
+html, body, ul {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+
+.wrapper {
+	width: 242px;
+	height: auto;
+	background-color: #adb3b9;
+	border: 1px solid #000;
+	margin: 5% auto; 
+	padding: 10px 15px;
+}
+.wrapper::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.digital_panel {
+	float: left;
+	width: 70%;
+}
+.control_panel {
+	float: left;
+	width: 25%;
+	padding-left: 10px;
+}
+.control_panel::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.btn_number li {
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+	margin-bottom: 5px;
+}
+.btn_number .btn {
+	padding: 7px 30px 7px 8px;
+	vertical-align: text-bottom;
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px ;
+	border-radius: 10%;
+}
+.btn_number .empty {
+  	padding: 15px 0;
+  	width: 46px;
+  	height: 31px;
+}
+.entry_field {
+	display: block;
+	width: 75%;
+	margin: 0 auto;
+	margin: 16px 25px 40px;
+	line-height: 25px;
+	text-align: center;
+}
+.control_panel .btn_control {
+	vertical-align: text-bottom;
+	width: 100%;
+  	height: 32px;
+  	border-radius: 10%;
+  	font-weight: bold;
+  	font-size: 8px;
+  	text-transform: uppercase;
+}  
+.text_panel li {
+	display: block;
+	margin-bottom: 4px;
+}
+.text_panel .btnControl01 {
+	background-color: red;
+} 
+.text_panel .btnControl02 {
+	background-color: yellow;
+} 
+.text_panel .btnControl03 {
+	background-color: green;
+} 

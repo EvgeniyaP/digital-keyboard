@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Digital keyboard</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<input id="entry_field" class="entry_field" type="text" maxlength="4" name="numbers" value="" max="4">
+		<div class="digital_panel">
+			<ul class="btn_number">
+				<li><button  class="btn btn01" value="1">1</button></li>
+				<li><button  class="btn btn02" value="2">2</button></li>
+				<li><button  class="btn btn03" value="3">3</button></li>
+				<li><button  class="btn btn04" value="4">4</button></li>
+				<li><button  class="btn btn05" value="5">5</button></li>
+				<li><button  class="btn btn06" value="6">6</button></li>
+				<li><button  class="btn btn07" value="7">7</button></li>
+				<li><button  class="btn btn08" value="8">8</button></li>
+				<li><button  class="btn btn09" value="9">9</button></li>
+				<li><button  class="btn empty" value=""></button></li>
+				<li><button  class="btn btn00" value="0">0</button></li>
+				<li><button  class="btn empty" value=""></button></li>
+			</ul>
+		</div>
+		<div class="control_panel">
+			<ul class="text_panel">
+				<li><button class="btn_control btnControl01">Cancel</button></li>
+				<li><button class="btn_control btnControl02">Clear</button></li>
+				<li><button class="btn_control btnControl03">Enter</button></li>
+				<li><button class="btn_control empty"></button></li>
+			</ul>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
